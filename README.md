@@ -106,3 +106,8 @@ to install tailwind:
 nx g @nx/angular:setup-tailwind ecom-frontend 
 
 ```
+
+adding a new component
+```shell
+nx g @nx/angular:component navbar  
+```
