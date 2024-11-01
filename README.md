@@ -111,3 +111,16 @@ adding a new component
 ```shell
 nx g @nx/angular:component navbar  
 ```
+
+## Integration with backend
+
+install dependency: https://www.npmjs.com/package/@nxrocks/nx-spring-boot
+```shell
+npm install @nxrocks/nx-spring-boot --save-dev
+```
+
+generate project:
+```shell
+nx g @nxrocks/nx-spring-boot:project ecom-backend --directory=apps/ecom-backend
+
+```
