@@ -14,6 +14,12 @@ To run the dev server for your app, use:
 npx nx serve ecom-frontend
 ```
 
+or
+
+```shell
+npx nx serve ecom-backend
+```
+
 To create a production bundle:
 
 ```sh
@@ -124,3 +130,9 @@ generate project:
 nx g @nxrocks/nx-spring-boot:project ecom-backend --directory=apps/ecom-backend
 
 ```
+
+### Setting up DB
+
+1. Run docker desktop
+2. Run `npx nx serve ecom-backend` - an error of missing schema should appear
+3. In Intellij create manually the connection and create schema named ecommerce_yt
